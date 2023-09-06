@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    color: white;
+    background-image: url(temp1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 50%;
+    height: 55vh;
+    background-image: url(temp2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5% 25%;
+}
+#calcTemp{
+    margin: 1%;
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#title{
+    width: 75%;
+    margin-top: 10%;
+    margin-left: 30%;
+    color: red;
+    height: auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+input, #temp_diff{
+    font-size: 26px;
+    width: 30%;
+    margin-left: 2%;
+    background-color: white;
+    border: 2px solid red;
+}
+input:hover,#temp_diff:hover{
+    border: 2px solid green;
+}
+#temp_diff{
+   margin-top: -35px;
+   margin-left: 70%;   
+}
+#exit{
+    margin-top: 5%;
+    margin-left: 127%;
+    background-color: black;
+    color: white;
+}
+#exit:hover{
+    background-color: rgb(240, 86, 86);
+    color: darkblue;
+    font-weight: bold;
+    border: 1px solid black;
+}
+h2{
+    color: red;
+}
+span{
+   font-size: 26px;
+   color: black;
+   font-weight: bold;
+   margin-left: 20%;
+}
+h1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.781);
+    text-align: center;
+    margin-top: 5%;
+    font-size: 70px;
+}
